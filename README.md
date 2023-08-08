@@ -209,6 +209,7 @@ No Back End, foram implementadas tratativas de erros para garantir que o sistema
 
 - "Data indisponível para atualização.": Semelhante à criação, se a atualização de uma reserva for tentada com datas que já estejam ocupadas por outra reserva, essa mensagem de erro é retornada.
 - "Não é possível atualizar uma reserva cancelada.": Se uma tentativa de atualização for feita em uma reserva que já foi cancelada, essa mensagem de erro é retornada.
+- "Não é possível mudar o status para CANCELADA através desta operação.": Se tentar atualizar uma reserva para CANCELADA pelo método de atualização, essa mensagem de erro é retornada.
 
 ### Outras Restrições
 
